@@ -1,0 +1,53 @@
+html,body{
+        background: black;
+        color: red;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    h1{
+        margin-top: 64px;
+    }
+    h2{
+        margin-top: 8px;
+    }
+    h3{
+        margin-top: 12px;
+    }
+    h4{
+        margin-top: 4px;
+    }
+      a {
+        color: red;
+        text-decoration: none !important;
+      }
+      .hydroflame521 {
+           border: 16px solid white;
+           border-radius: 50%;
+           border-top: 16px solid red;
+           width: 120px;
+           height: 120px;
+           -webkit-animation: spin 2s linear infinite; 
+           animation: spin 2s linear infinite;
+}
+      @-webkit-keyframes spin {
+           0% { -webkit-transform: rotate(0deg); }
+           100% { -webkit-transform: rotate(360deg); }
+}
+      @keyframes spin {
+           0% { transform: rotate(0deg); }
+           100% { transform: rotate(360deg); }
+}
+.navbar {
+  overflow: hidden;
+    color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
